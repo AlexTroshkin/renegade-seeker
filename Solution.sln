@@ -1,21 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A23E6645-F652-4133-9AB4-ADCCB5D53308}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenegadeSeeker.App", "src\RenegadeSeeker.App\RenegadeSeeker.App.csproj", "{D1FA46D6-FAB9-46BB-8A6B-01A00F281EFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RenegadeSeeker.App", "src\RenegadeSeeker.App\RenegadeSeeker.App.csproj", "{D1FA46D6-FAB9-46BB-8A6B-01A00F281EFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenegadeSeeker.Base", "src\RenegadeSeeker.Base\RenegadeSeeker.Base.csproj", "{C95DCA38-A35C-4FE0-ADBD-B047A2A390DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RenegadeSeeker.Base", "src\RenegadeSeeker.Base\RenegadeSeeker.Base.csproj", "{C95DCA38-A35C-4FE0-ADBD-B047A2A390DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28E10E06-0AF1-4C0F-A4F2-7C91CF86C3B4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D1FA46D6-FAB9-46BB-8A6B-01A00F281EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -27,8 +29,14 @@ Global
 		{C95DCA38-A35C-4FE0-ADBD-B047A2A390DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C95DCA38-A35C-4FE0-ADBD-B047A2A390DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D1FA46D6-FAB9-46BB-8A6B-01A00F281EFA} = {A23E6645-F652-4133-9AB4-ADCCB5D53308}
 		{C95DCA38-A35C-4FE0-ADBD-B047A2A390DF} = {A23E6645-F652-4133-9AB4-ADCCB5D53308}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB381038-C7A2-4DF5-B0F9-DD812FC79AA9}
 	EndGlobalSection
 EndGlobal
