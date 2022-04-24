@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A23E6645-F652-4133-9AB4-ADCCB5D53308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenegadeSeeker.App", "src\RenegadeSeeker.App\RenegadeSeeker.App.csproj", "{D1FA46D6-FAB9-46BB-8A6B-01A00F281EFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1FA46D6-FAB9-46BB-8A6B-01A00F281EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FA46D6-FAB9-46BB-8A6B-01A00F281EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FA46D6-FAB9-46BB-8A6B-01A00F281EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FA46D6-FAB9-46BB-8A6B-01A00F281EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1FA46D6-FAB9-46BB-8A6B-01A00F281EFA} = {A23E6645-F652-4133-9AB4-ADCCB5D53308}
 	EndGlobalSection
 EndGlobal
