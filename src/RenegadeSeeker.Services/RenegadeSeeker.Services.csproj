@@ -1,9 +1,22 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nethereum.Web3" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<Using Include="RenegadeSeeker.Base.Nothing" Static="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RenegadeSeeker.Base\RenegadeSeeker.Base.csproj" />
+    <ProjectReference Include="..\RenegadeSeeker.Graph\RenegadeSeeker.Graph.csproj" />
+  </ItemGroup>
 
 </Project>
