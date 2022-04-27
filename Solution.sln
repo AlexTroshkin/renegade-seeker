@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenegadeSeeker.Graph", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenegadeSeeker.Services", "src\RenegadeSeeker.Services\RenegadeSeeker.Services.csproj", "{BECBA81A-E022-4D83-8185-489349A1FCB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenegadeSeeker.Data", "src\RenegadeSeeker.Data\RenegadeSeeker.Data.csproj", "{F3834526-D94E-4703-B1DC-6A6D6B4406E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{BECBA81A-E022-4D83-8185-489349A1FCB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BECBA81A-E022-4D83-8185-489349A1FCB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BECBA81A-E022-4D83-8185-489349A1FCB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3834526-D94E-4703-B1DC-6A6D6B4406E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3834526-D94E-4703-B1DC-6A6D6B4406E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3834526-D94E-4703-B1DC-6A6D6B4406E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3834526-D94E-4703-B1DC-6A6D6B4406E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{C95DCA38-A35C-4FE0-ADBD-B047A2A390DF} = {A23E6645-F652-4133-9AB4-ADCCB5D53308}
 		{C781E4C8-95DD-4924-925A-8AD1F3DB2124} = {A23E6645-F652-4133-9AB4-ADCCB5D53308}
 		{BECBA81A-E022-4D83-8185-489349A1FCB4} = {A23E6645-F652-4133-9AB4-ADCCB5D53308}
+		{F3834526-D94E-4703-B1DC-6A6D6B4406E0} = {A23E6645-F652-4133-9AB4-ADCCB5D53308}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB381038-C7A2-4DF5-B0F9-DD812FC79AA9}
