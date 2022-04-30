@@ -14,6 +14,8 @@ namespace RenegadeSeeker.App.HostedServices
 
         protected async override Task ExecuteAsync(CancellationToken stoppingToken)
         {
+            // 	https://http-mainnet.hecochain.com
+
             var settings = new Dictionary<String, String>
             {
                 { "rpcUrl"      , "https://rpc.ankr.com/eth"                   },

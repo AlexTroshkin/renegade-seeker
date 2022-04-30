@@ -29,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RenegadeSeeker.Data\RenegadeSeeker.Data.csproj" />
     <ProjectReference Include="..\RenegadeSeeker.Services\RenegadeSeeker.Services.csproj" />
   </ItemGroup>
 

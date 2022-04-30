@@ -1,6 +1,7 @@
 ﻿using Nethereum.Hex.HexTypes;
 using Nethereum.RPC.Eth.DTOs;
 using Nethereum.Web3;
+using Nethereum.Web3.Accounts;
 using RenegadeSeeker.Base;
 using System.Numerics;
 using System.Threading.Channels;
